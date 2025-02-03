@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include <../factorial.h>
+#include "../factorial.h"
 
 TEST(MathCombinatoricsTest, TestFactorial) {
     ASSERT_EQ(1, factorial(0));
