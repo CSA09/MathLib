@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "operations.h"
+#include "../operations.h"
 
 TEST(MathOperationsTest, TestSum) {
     ASSERT_EQ(10, sumar(7, 3));
