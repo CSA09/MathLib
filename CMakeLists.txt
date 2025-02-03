@@ -4,10 +4,10 @@ project(unit_test)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
-        main.cpp
-        MyMathLib.h
-        operations.h
-        factorial.h
+        ../main.cpp
+        ../MyMathLib.h
+        ../operations.h
+        ../factorial.h
 )
 
 
