@@ -31,9 +31,9 @@ if(ENABLE_TESTING)
 
     # Archivos de pruebas
     set(TEST_SOURCES
-        test.cpp
-        tests1.cpp
-        tests2.cpp
+        tests/test.cpp
+        tests/tests1.cpp
+        tests/tests2.cpp
     )
 
     # Crear ejecutable de pruebas
