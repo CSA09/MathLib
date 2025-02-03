@@ -20,8 +20,7 @@ double multiplicar(double a, double b) {
 // Implementación de la división con manejo de error
 double dividir(double a, double b) {
     if (b == 0) {
-        printf("Error: División por cero\n");
-        return 0;  // O podrías manejarlo de otra manera
+        throw std::runtime_error("Error: División por cero");
     }
     return a / b;
 }
