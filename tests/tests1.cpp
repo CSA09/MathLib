@@ -14,9 +14,9 @@ TEST(MathOperationsTest, Testrestarion) {
 }
 
 TEST(MathOperationsTest, TestMultiplication) {
-    ASSERT_EQ(21, multipicar(7, 3));
-    ASSERT_EQ(-25, multipicar(-5, 5));
-    ASSERT_EQ(15, multipicar(-5, -3));
+    ASSERT_EQ(21, multiplicar(7, 3));
+    ASSERT_EQ(-25, multiplicar(-5, 5));
+    ASSERT_EQ(15, multiplicar(-5, -3));
 }
 
 TEST(MathOperationsTest, TestDivision) {
