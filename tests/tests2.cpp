@@ -1,6 +1,8 @@
 #include <gtest/gtest.h>
 #include "../factorial.h"
 
+// Comentario para push
+
 TEST(MathCombinatoricsTest, TestFactorial) {
     ASSERT_EQ(1, factorial(0));
     ASSERT_EQ(1, factorial(1));
